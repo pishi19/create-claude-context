@@ -1,0 +1,19 @@
+{
+  "name": "{{PROJECT_NAME}}",
+  "description": "{{PROJECT_DESCRIPTION}}",
+  "context_files": [
+    ".claude/index.md",
+    "README.md",
+    "CLAUDE.md"
+  ],
+  "key_concepts": {
+    "development_workflow": "Structured approach to coding",
+    "session_tracking": "Monitor development progress",
+    "context_awareness": "Keep Claude informed of changes"
+  },
+  "constraints": [
+    "Follow project conventions",
+    "Test before committing",
+    "Update documentation"
+  ]
+}

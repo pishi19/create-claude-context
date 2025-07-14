@@ -1,0 +1,48 @@
+{
+  "name": "create-claude-context",
+  "version": "1.0.0",
+  "description": "Initialize Claude Context System - Intelligent development workflow management for any project",
+  "main": "index.js",
+  "bin": {
+    "create-claude-context": "./bin/create-claude-context.js",
+    "claude-context": "./bin/claude-context.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint lib bin"
+  },
+  "keywords": [
+    "claude",
+    "context",
+    "development",
+    "workflow",
+    "ai",
+    "assistant",
+    "project-management",
+    "developer-tools"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/create-claude-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/create-claude-context/issues"
+  },
+  "homepage": "https://github.com/yourusername/create-claude-context#readme"
+}

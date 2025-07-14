@@ -1,0 +1,25 @@
+# Claude Context System - Git Ignore
+
+# Cache files
+cache/
+.cache.json
+
+# Session tracking
+.session-start
+.session-metrics.json
+
+# Logs
+logs/
+
+# Local settings
+settings.local.json
+
+# Temporary files
+*.tmp
+*.bak
+
+# Keep structure
+!cache/.gitkeep
+!logs/.gitkeep
+!sessions/.gitkeep
+!history/.gitkeep

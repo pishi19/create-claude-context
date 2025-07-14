@@ -1,0 +1,23 @@
+{
+  "name": "test-claude-context",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "claude:start": "node .claude/scripts/claude-session-tracker.js start",
+    "claude:end": "node .claude/scripts/claude-session-tracker.js end",
+    "claude:update": "node .claude/scripts/update-claude-context-v2.js",
+    "claude:dashboard": "node .claude/scripts/claude-dashboard.js",
+    "claude:todos": "node .claude/scripts/extract-todos.js",
+    "claude:priorities": "node .claude/scripts/claude-priorities.js",
+    "claude:quick": "claude-context status",
+    "claude:init": "node .claude/scripts/claude-auto-init.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chalk": "^4.1.2"
+  }
+}

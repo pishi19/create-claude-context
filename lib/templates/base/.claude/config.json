@@ -1,0 +1,32 @@
+{
+  "project": {
+    "name": "{{PROJECT_NAME}}",
+    "description": "{{PROJECT_DESCRIPTION}}",
+    "type": "{{PROJECT_TYPE}}",
+    "mainBranch": "main"
+  },
+  "context": {
+    "autoUpdateInterval": 300000,
+    "cacheTTL": 300000,
+    "maxFileSize": 100000,
+    "excludePatterns": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/.next/**",
+      "**/coverage/**",
+      "**/.git/**"
+    ]
+  },
+  "features": {
+    "sessionTracking": true,
+    "dashboard": true,
+    "autoUpdate": true,
+    "githubIntegration": false,
+    "healthChecks": true
+  },
+  "paths": {
+    "roadmap": "docs/roadmap.md",
+    "mainDoc": "README.md",
+    "contextDir": ".claude"
+  }
+}

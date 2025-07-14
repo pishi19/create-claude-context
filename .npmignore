@@ -1,0 +1,55 @@
+# Development files
+test-claude-context/
+examples/
+docs/
+scripts/
+.github/
+.vscode/
+.idea/
+
+# Test files
+*.test.js
+*.spec.js
+__tests__/
+coverage/
+.nyc_output/
+
+# Config files
+.eslintrc*
+.prettierrc*
+jest.config.js
+tsconfig.json
+.editorconfig
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# CI files
+.travis.yml
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# Build files
+*.tsbuildinfo
+
+# Keep essential files
+!lib/**
+!bin/**
+!README.md
+!LICENSE
+!package.json
