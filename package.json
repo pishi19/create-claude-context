@@ -9,7 +9,13 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint lib bin"
+    "lint": "eslint lib bin",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "check-format": "prettier --check \"**/*.{js,json,md}\""
   },
   "keywords": [
     "claude",
