@@ -6,8 +6,8 @@
 [![npm downloads](https://img.shields.io/npm/dm/create-claude-context.svg)](https://www.npmjs.com/package/create-claude-context)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/create-claude-context.svg)](https://nodejs.org)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/create-claude-context.svg)](https://github.com/yourusername/create-claude-context/issues)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/create-claude-context.svg)](https://github.com/yourusername/create-claude-context/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/pishi19/claude-context.svg)](https://github.com/pishi19/claude-context/issues)
+[![GitHub stars](https://img.shields.io/github/stars/pishi19/claude-context.svg)](https://github.com/pishi19/claude-context/stargazers)
 
 ## What is Claude Context?
 
@@ -19,6 +19,23 @@ Claude Context is a development workflow management system that helps you mainta
 - 🔄 **Context Updates** - Keep your AI assistant informed of project changes
 - 📝 **Milestone Tracking** - Track progress against your roadmap
 - 🐛 **Bug Detection** - Automatically detect and track errors
+
+## Installation
+
+### From NPM (when published)
+```bash
+npx create-claude-context
+```
+
+### From GitHub
+```bash
+# Direct from GitHub
+npx github:pishi19/claude-context
+
+# Or install globally
+npm install -g github:pishi19/claude-context
+create-claude-context
+```
 
 ## Quick Start
 
@@ -147,7 +164,7 @@ Essential guidelines for AI assistants working on this project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/create-claude-context.git
+git clone https://github.com/pishi19/claude-context.git
 
 # Install dependencies
 cd create-claude-context
