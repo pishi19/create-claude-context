@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pishi19/claude-context.git"
+    "url": "git+https://github.com/pishi19/create-claude-context.git"
   },
   "bugs": {
-    "url": "https://github.com/pishi19/claude-context/issues"
+    "url": "https://github.com/pishi19/create-claude-context/issues"
   },
-  "homepage": "https://github.com/pishi19/claude-context#readme",
+  "homepage": "https://github.com/pishi19/create-claude-context#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.0.0",

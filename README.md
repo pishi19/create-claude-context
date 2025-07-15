@@ -6,8 +6,8 @@
 [![npm downloads](https://img.shields.io/npm/dm/create-claude-context.svg)](https://www.npmjs.com/package/create-claude-context)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/create-claude-context.svg)](https://nodejs.org)
-[![GitHub issues](https://img.shields.io/github/issues/pishi19/claude-context.svg)](https://github.com/pishi19/claude-context/issues)
-[![GitHub stars](https://img.shields.io/github/stars/pishi19/claude-context.svg)](https://github.com/pishi19/claude-context/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/pishi19/create-claude-context.svg)](https://github.com/pishi19/create-claude-context/issues)
+[![GitHub stars](https://img.shields.io/github/stars/pishi19/create-claude-context.svg)](https://github.com/pishi19/create-claude-context/stargazers)
 
 ## What is Claude Context?
 
@@ -30,10 +30,10 @@ npx create-claude-context
 ### From GitHub
 ```bash
 # Direct from GitHub
-npx github:pishi19/claude-context
+npx github:pishi19/create-claude-context
 
 # Or install globally
-npm install -g github:pishi19/claude-context
+npm install -g github:pishi19/create-claude-context
 create-claude-context
 ```
 
@@ -164,7 +164,7 @@ Essential guidelines for AI assistants working on this project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/pishi19/claude-context.git
+git clone https://github.com/pishi19/create-claude-context.git
 
 # Install dependencies
 cd create-claude-context
