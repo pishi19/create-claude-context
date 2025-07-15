@@ -1,0 +1,34 @@
+{
+  "npm": {
+    "test": "npm test",
+    "typeCheck": "npm run type-check",
+    "lint": "npm run lint",
+    "build": "npm run build",
+    "dev": "npm run dev",
+    "start": "npm start"
+  },
+  "yarn": {
+    "test": "yarn test",
+    "typeCheck": "yarn type-check",
+    "lint": "yarn lint",
+    "build": "yarn build",
+    "dev": "yarn dev",
+    "start": "yarn start"
+  },
+  "pnpm": {
+    "test": "pnpm test",
+    "typeCheck": "pnpm type-check",
+    "lint": "pnpm lint",
+    "build": "pnpm build",
+    "dev": "pnpm dev",
+    "start": "pnpm start"
+  },
+  "bun": {
+    "test": "bun test",
+    "typeCheck": "bun type-check",
+    "lint": "bun lint",
+    "build": "bun build",
+    "dev": "bun dev",
+    "start": "bun start"
+  }
+}

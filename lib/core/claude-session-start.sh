@@ -12,9 +12,17 @@ node scripts/update-claude-context.js
 echo -e "\n🚀 Quick Context:"
 head -15 .claude/index.md
 
+# Load config to get roadmap path
+CONFIG_FILE=".claude/config.json"
+if [ -f "$CONFIG_FILE" ]; then
+  ROADMAP_PATH=$(cat "$CONFIG_FILE" | grep -o '"roadmap"[[:space:]]*:[[:space:]]*"[^"]*"' | cut -d'"' -f4 || echo "docs/roadmap.md")
+else
+  ROADMAP_PATH="docs/roadmap.md"
+fi
+
 # Display current state from existing workflow
 echo -e "\n📍 Project Status:"
-head -n 20 docs/ora-roadmap-milestones.md 2>/dev/null | grep -A 5 "Current Position" || echo "No roadmap status found"
+head -n 20 "$ROADMAP_PATH" 2>/dev/null | grep -A 5 "Current Position" || echo "No roadmap status found"
 
 # Log session start (compatible with existing workflow)
 if [ -f "docs/DEVELOPMENT_LOG.md" ]; then
@@ -38,5 +46,5 @@ echo "  - Check .claude/current-bug.md for active issues"
 # Start dev server if requested
 if [ "$1" == "--dev" ]; then
   echo -e "\n🔧 Starting development server..."
-  pnpm dev
+  npm run dev
 fi

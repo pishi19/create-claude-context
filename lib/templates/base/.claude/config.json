@@ -28,5 +28,13 @@
     "roadmap": "docs/roadmap.md",
     "mainDoc": "README.md",
     "contextDir": ".claude"
+  },
+  "commands": {
+    "packageManager": "npm",
+    "test": "npm test",
+    "typeCheck": "npm run type-check",
+    "lint": "npm run lint",
+    "build": "npm run build",
+    "dev": "npm run dev"
   }
 }

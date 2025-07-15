@@ -4,7 +4,7 @@
   "context_files": [
     ".claude/index.md",
     "README.md",
-    "CLAUDE.md"
+    "{{CLAUDE_MD_PATH}}"
   ],
   "key_concepts": {
     "development_workflow": "Structured approach to coding",
