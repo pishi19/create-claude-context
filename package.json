@@ -42,7 +42,7 @@
     "commander": "^9.0.0",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
-    "ora": "^5.4.1"
+    "ora": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
