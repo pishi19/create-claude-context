@@ -6,11 +6,15 @@ echo "📅 $(date)"
 
 # Update Claude context first
 echo -e "\n📝 Updating Claude context..."
-node scripts/update-claude-context.js
+node .claude/scripts/update-claude-context.js
 
 # Display Claude quick context
 echo -e "\n🚀 Quick Context:"
-head -15 .claude/index.md
+if [ -f ".claude/index.md" ]; then
+  head -15 .claude/index.md
+else
+  echo "Context not yet initialized"
+fi
 
 # Load config to get roadmap path
 CONFIG_FILE=".claude/config.json"

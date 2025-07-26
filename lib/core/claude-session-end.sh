@@ -10,7 +10,7 @@ BRANCH=$(git branch --show-current)
 
 # Update Claude context one more time
 echo -e "\n📝 Final context update..."
-node scripts/update-claude-context.js
+node .claude/scripts/update-claude-context.js
 
 # Extract TODOs from uncommitted changes
 echo -e "\n📋 Extracting TODOs from changes..."
